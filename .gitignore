@@ -1,0 +1,29 @@
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and system files
+*.log
+*.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Model artifacts
+*.joblib
+
+# Environment files (optional)
+.env
